@@ -54,3 +54,5 @@ git branch -d dev-1
 删除分支：`git branch -d <name>`
 
 ## 解决冲突
+
+冲突解决办法
