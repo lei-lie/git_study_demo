@@ -3,6 +3,7 @@
 git 学习笔记
 
 ## 本地初始化git仓库
+
 ```
 # 创建空项目
 mkdir git-demo
@@ -11,6 +12,16 @@ cd git-demo
 # 初始化git仓库
 git init
 ```
+
+### 向本地仓库添加文件
+
+```
+# 将本地添加或修改的文件提交到暂存区
+git add <file> | git add .
+# 将暂存区中的修改提交到本地仓库.git
+git commit -m 'description'
+```
+
 ## 分支的创建
 
 1.创建分支
