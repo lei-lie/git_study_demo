@@ -23,6 +23,7 @@ git commit -m 'description'
 ```
 
 ## 查看本地仓库的状态
+
 使用`git status`命令可以查看到本地仓库当前的状态
 
 ## 查看某个文件具体的修改
@@ -68,6 +69,14 @@ git reset --hard <回退之前版本的commit Id>
 如果找不到回退之前的`commit Id`还可以通过`git reflog`命令查找
 
 ![image-20201124122521119](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20201124122521119.png)
+
+## 查看工作区和版本库里面最新版本的区别
+
+```javascript
+git diff HEAD -- <file>
+```
+
+
 
 ## 分支的创建
 
