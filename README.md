@@ -22,6 +22,13 @@ git add <file> | git add .
 git commit -m 'description'
 ```
 
+## 查看本地仓库的状态
+使用`git status`命令可以查看到本地仓库当前的状态
+
+## 查看某个文件具体的修改
+
+使用`git diff <file>`查看某个文件具体的修改
+
 ## 分支的创建
 
 1.创建分支
@@ -36,7 +43,7 @@ git branch dev-1
 git checkout dev-1
 ```
 
-1，2等价于 `git checkout -b dev`,创建dev分支并切换到`dev`
+`1，2`等价于 `git checkout -b dev`,创建`dev`分支并切换到`dev`
 
 3.查看所有分支
 
