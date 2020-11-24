@@ -57,7 +57,17 @@ git reset --hard HEAD^
 cat <file>
 ```
 
+4.恢复到回退之前的版本
 
+```javascript
+git reset --hard <回退之前版本的commit Id>
+```
+
+`commit ID`不需要写全，只需要前几位即可
+
+如果找不到回退之前的`commit Id`还可以通过`git reflog`命令查找
+
+![image-20201124122521119](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20201124122521119.png)
 
 ## 分支的创建
 
