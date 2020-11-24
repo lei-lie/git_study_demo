@@ -127,7 +127,9 @@ git branch
 4.合并分支
 
 ```javascript
+# 切换到主分支
 git checkout main
+# 将主分支和dev-1分支进行合并
 git merge dev-1
 ```
 
@@ -154,3 +156,14 @@ git branch -d dev-1
 ## 解决冲突
 
 冲突解决办法
+
+`git merge dev`
+
+在合并过程中出现冲突，定位到相应的冲突文件，保留自己需要的代码后执行`git add` 和 `git commit`,最后删除分支
+
+查看分支合并图
+
+```javascript
+git log --graph
+```
+
