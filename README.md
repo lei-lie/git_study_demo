@@ -31,7 +31,9 @@ git commit -m 'description'
 
 ## 版本回退
 
+
 1. 查看修改记录
+
 
 ```javascript
 git log
@@ -40,6 +42,7 @@ git log
 ![image-20201124120548988](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20201124120548988.png)
 
 得到上图的显示从最近到最远的提交日志
+
 
 2.版本回退
 
@@ -50,6 +53,7 @@ git log
 `git`中，使用`HEAD`表示当前版本，上一个版本使用`HEAD^`,上上一个版本是`HEAD^^`,往上100个版本`HEAD~100`
 
 `--hard`参数
+
 
 ## 分支的创建
 
