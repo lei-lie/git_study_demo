@@ -1,10 +1,10 @@
 # git_study_demo
 
-git 学习笔记
+`git` 学习笔记
 
 ## 本地初始化git仓库
 
-```
+```javascript
 # 创建空项目
 mkdir git-demo
 # 进入项目
@@ -15,7 +15,7 @@ git init
 
 ### 向本地仓库添加文件
 
-```
+```javascript
 # 将本地添加或修改的文件提交到暂存区
 git add <file> | git add .
 # 将暂存区中的修改提交到本地仓库.git
@@ -29,17 +29,31 @@ git commit -m 'description'
 
 使用`git diff <file>`查看某个文件具体的修改
 
+## 版本回退
+
+查看修改记录
+
+```javascript
+git log
+```
+
+![image-20201124120548988](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20201124120548988.png)
+
+得到上图的显示从最近到最远的提交日志
+
+
+
 ## 分支的创建
 
 1.创建分支
 
-```
+```javascript
 git branch dev-1
 ```
 
 2.切换分支
 
-```
+```javascript
 git checkout dev-1
 ```
 
@@ -47,7 +61,7 @@ git checkout dev-1
 
 3.查看所有分支
 
-```
+```javascript
 git branch
 ```
 
@@ -55,14 +69,14 @@ git branch
 
 4.合并分支
 
-```
+```javascript
 git checkout main
 git merge dev-1
 ```
 
 5.删除指定分支
 
-```
+```javascript
 git branch -d dev-1
 ```
 
