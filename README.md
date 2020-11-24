@@ -2,6 +2,15 @@
 
 git 学习笔记
 
+## 本地初始化git仓库
+```
+# 创建空项目
+mkdir git-demo
+# 进入项目
+cd git-demo
+# 初始化git仓库
+git init
+```
 ## 分支的创建
 
 1.创建分支
